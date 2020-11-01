@@ -1,0 +1,42 @@
+#brief {
+    width: 500px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#brief h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #2D3142;
+    padding-bottom: 40px;
+}
+
+#brief p{
+    font-size: 16px;
+    line-height: 150%;
+    text-align:justify;
+    text-align-last: center;
+    color: #2D3142;
+}
+
+#team{
+    background-color: #333;
+    border-top: 1px dashed #BFC0C0;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+}
+
+#team div{
+    margin: 0 auto;
+}
+
+#team h1{
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 20px;
+}
+#team img{
+    width: 250px;
+}

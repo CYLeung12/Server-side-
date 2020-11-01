@@ -1,0 +1,265 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: #BFC0C0;
+    color: #444444;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 50px;
+    background-color: #2D3142;
+}
+
+#icon{
+    max-width: 25px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bar ul{
+    display: flex;
+    margin-top: 15px;
+    color: #FFF
+}
+
+#bar a{
+    color: #fff;
+    text-decoration: none;
+    margin:0 20px
+}
+
+#name{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    justify-content: flex-end
+}
+
+
+
+#lunar{
+    margin-right: 5px;
+}
+
+#hk,#head3{
+    margin-left: 4px;
+}
+
+.slider{
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+  border: none;
+}
+
+.bx-wrapper {
+  box-shadow: 0 0 0px #ccc;
+  border: none;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.slider img{
+    object-fit: cover;
+    height: 300px;
+}
+
+
+#slogan{
+    height: 800px;
+    background-image: url(../images/s1.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+
+
+
+
+
+#product div{
+    text-align: center;
+}
+
+#product h4{
+    margin: 10px 0;
+    font-size: 32px;
+    color: #2D3142;
+} 
+
+#product nav{
+    background-color: #fff;
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: dashed 1px #BFC0C0;
+}
+
+.iteam img{
+    width: 250px;
+    border: 3px solid #909651;
+    margin: 5px 20px;
+    margin-bottom: 50px;
+}
+
+#print,#digital{
+    display: flex;
+    justify-content: center;
+    margin: 20px 120px;
+    
+}
+
+
+
+
+
+
+footer{
+    height: 30px;
+    background-color: #2D3142;
+    color: #fff;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;   
+}
+
+footer div{
+    padding: 5px;
+    font-size: 10px;
+}
+
+#btt{
+    cursor: pointer;
+}
+
+#about{
+    height: 500px;
+    background-image: url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+#word{
+    height: 500px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about h1{
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: 7px;
+}
+
+#about h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#about p{
+    line-height: 200%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+
+#icon{
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+}
+
+#header{
+    position: relative;
+}
+
+#title{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 48px;
+    left: 0px;
+    right: 0px;
+}
+
+h3{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0px;  
+    text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,.9);
+}
+
+#lunar{
+    font-weight: 600;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+}
+
+#hk{
+    font-size:12px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#eaeaea;
+}
+
+#head3{
+    font-size:16px;
+    margin-top:12px;
+    color:#eaeaea;
+}
+
+#bar ul{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#bar li{
+    margin: 0 20px;
+    tab-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #444444;
+}
+
+
+}
+
+
+
+
+
